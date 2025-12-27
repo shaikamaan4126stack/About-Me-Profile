@@ -149,7 +149,8 @@
       border-radius:15px;
     }
 
-    .mail-btn{
+    .mail-btn,
+    .resume-btn{
       display:inline-block;
       margin-top:10px;
       padding:10px 22px;
@@ -254,5 +255,4 @@
     };
   </script>
 
-</body>
-</html>
+
