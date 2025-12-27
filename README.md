@@ -308,7 +308,7 @@ button:hover {
   <!-- 🌟 STIRRING HAMBURGER NAVBAR -->
  <nav class="navbar">
 
-    <div class="logo"><img src="/ASSET/LOGOS/6534601.jpg" alt="MyImage" id="logo"></div>
+    <div class="logo"><img src="https://github.com/shaikamaan4126stack/About-Me-Profile/blob/main/LOGO.jpg?raw=true" alt="MyImage" id="logo"></div>
 
     <!-- 3 Lines Stirring Menu -->
     <div class="hamburger" id="menu-btn">
