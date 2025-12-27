@@ -233,6 +233,17 @@
     <a href="mailto:shaikamaan@gmail.com" class="mail-btn">Send Email</a>
   </div>
 
+  <!-- RESUME SECTION -->
+<h1 style="text-align:center;">Click Here to View My Resume 🤏</h1>
+
+<div style="text-align:center; margin:20px;">
+  <a
+    href="MY FINALL RESUME 2.pdf"
+    target="_blank"
+    class="resume-btn">
+    View Resume
+  </a>
+
   <script>
     const menuBtn = document.getElementById("menu-btn");
     const navLinks = document.getElementById("nav-links");
