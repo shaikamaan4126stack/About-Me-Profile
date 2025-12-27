@@ -338,7 +338,7 @@ button:hover {
 
   <!-- IMAGE -->
   <div id="image">
-    <img src="https://github.com/shaikamaan4126stack/About-Me-Profile/blob/02cf8d668c5d68912c8bfc2e824dcd89220eb4b7/AMAAN%20PIC.png" id="myimg">
+    <img src="https://github.com/shaikamaan4126stack/About-Me-Profile/blob/main/AMAAN%20PIC.png?raw=true" id="myimg">
   </div>
 
 
