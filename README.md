@@ -215,7 +215,11 @@
     <button>HTML</button>
     <button>CSS</button>
     <button>JavaScript</button>
+    <button>ReactJS</button>
     <button>Python</button>
+    <button>Django</button>
+
+    
     <button>SQL</button>
 
     <p class="PRJ">+2<br>Web Projects</p>
