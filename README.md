@@ -319,7 +319,6 @@
   <nav class="navbar">
     <div class="logo">
       <img src="LOGO.jpg" alt="Shaik Amaan Logo" id="logo">
-      Amaan
     </div>
 
     <!-- 3 Lines Stirring Menu -->
