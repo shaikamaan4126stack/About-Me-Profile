@@ -9,9 +9,6 @@
       padding: 0;
       box-sizing: border-box;
     }
-    html{
-  scroll-behavior: smooth;
-}
 
     body {
       background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
@@ -140,10 +137,6 @@
     }
 
     /* HERO SECTION */
-    #About button{
-  margin-top:20px;
-}
-
     #About {
       text-align: center;
       padding: clamp(50px, 15vh, 100px) 5vw;
@@ -179,10 +172,10 @@
     }
 
     /* Profile Image */
-    #image {
-      text-align: center;
-      padding: 1rem 0;
-    }
+#image {
+  text-align: center;
+  padding: 0.5rem 0;
+}
 
     #myimg {
       width: clamp(200px, 35vw, 350px);
@@ -194,14 +187,11 @@
     }
 
     /* About Section */
-   #Myself {
+ #Myself {
   text-align: center;
-  padding: 3rem 5vw;
+  padding: 2rem 5vw;
   max-width: 800px;
   margin: 0 auto;
-}
-    #Myself p{
-  margin-bottom:12px;
 }
 
     #Myself h1 {
@@ -224,10 +214,11 @@
 
     /* Skills Section */
 #skills {
-  padding: 4rem 5vw;
-  margin-top: 20px;
+  padding: 3rem 5vw;
+  margin-top: 10px;
   text-align: center;
 }
+
     #TECHINCAL {
       font-size: clamp(2rem, 6vw, 3rem);
       margin-bottom: 3rem;
@@ -236,13 +227,14 @@
       -webkit-text-fill-color: transparent;
     }
 
-   .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 15px;
-  max-width: 800px;
-  margin: 0 auto 3rem;
-}
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+      max-width: 600px;
+      margin: 0 auto 3rem;
+    }
+
     .skills-grid button {
       width: 100%;
       height: 50px;
@@ -258,22 +250,22 @@
       transform: translateY(-2px);
     }
 
-   .PRJ {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 1.5rem;
-  border-radius: 20px;
-  border: 1px solid rgba(0, 123, 255, 0.3);
-  font-size: 1.1rem;
-  font-weight: bold;
-  display: inline-block;
-  margin: 10px;
-  min-width: 150px;
-}
+    .PRJ {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem 1rem;
+      border-radius: 20px;
+      border: 1px solid rgba(0, 123, 255, 0.3);
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: inline-block;
+      margin: 0 10px;
+    }
+
     /* Contact Section */
     #contact {
       text-align: center;
       padding: 25px;
-      margin: 20px auto;
+      margin: 40px auto;
       width: 90%;
       max-width: 600px;
       background: rgba(255, 255, 255, 0.06);
@@ -299,6 +291,26 @@
     .mail-btn:hover { 
       opacity: 0.9; 
     }
+    @media(max-width:768px){
+
+  #About{
+    padding: 30px 20px;
+  }
+
+  #Myself{
+    padding: 20px;
+  }
+
+  #skills{
+    margin-top: 0;
+    padding-top: 30px;
+  }
+
+  .PRJ{
+    width: 100%;
+    margin: 10px 0;
+  }
+}
   </style>
 </head>
 
@@ -307,6 +319,7 @@
   <nav class="navbar">
     <div class="logo">
       <img src="LOGO.jpg" alt="Shaik Amaan Logo" id="logo">
+      Amaan
     </div>
 
     <!-- 3 Lines Stirring Menu -->
@@ -338,7 +351,7 @@
 
   <!-- ABOUT ME SECTION -->
   <div id="Myself">
-  <h1>ABOUT ME</h1>
+    <h1>ABOUT ME</h1>
 <p class="lead">
   Hi, my name is Shaik Amaan. I completed my Bachelor of Computer Applications (BCA) from Karnataka Arts & Science College, Bidar.
   Currently, I am working as a <strong>Trainee Software Engineer</strong> at
@@ -361,7 +374,7 @@
 <p>
   I enjoy learning new technologies and building user-friendly web applications that solve real business problems.
 </p>
-</div>
+    </div>
 
   <!-- SKILLS -->
   <div id="skills">
