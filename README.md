@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -10,6 +9,9 @@
       padding: 0;
       box-sizing: border-box;
     }
+    html{
+  scroll-behavior: smooth;
+}
 
     body {
       background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
@@ -138,6 +140,10 @@
     }
 
     /* HERO SECTION */
+    #About button{
+  margin-top:20px;
+}
+
     #About {
       text-align: center;
       padding: clamp(50px, 15vh, 100px) 5vw;
@@ -194,6 +200,9 @@
       max-width: 800px;
       margin: 0 auto;
     }
+    #Myself p{
+  margin-bottom:18px;
+}
 
     #Myself h1 {
       font-size: clamp(2rem, 6vw, 3rem);
@@ -228,14 +237,13 @@
       -webkit-text-fill-color: transparent;
     }
 
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-      gap: 1rem;
-      max-width: 600px;
-      margin: 0 auto 3rem;
-    }
-
+   .skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
     .skills-grid button {
       width: 100%;
       height: 50px;
@@ -251,17 +259,17 @@
       transform: translateY(-2px);
     }
 
-    .PRJ {
-      background: rgba(255, 255, 255, 0.05);
-      padding: 2rem 1rem;
-      border-radius: 20px;
-      border: 1px solid rgba(0, 123, 255, 0.3);
-      font-size: 1.5rem;
-      font-weight: bold;
-      display: inline-block;
-      margin: 0 10px;
-    }
-
+   .PRJ {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 123, 255, 0.3);
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+  min-width: 150px;
+}
     /* Contact Section */
     #contact {
       text-align: center;
@@ -300,7 +308,6 @@
   <nav class="navbar">
     <div class="logo">
       <img src="LOGO.jpg" alt="Shaik Amaan Logo" id="logo">
-      Amaan
     </div>
 
     <!-- 3 Lines Stirring Menu -->
@@ -321,7 +328,7 @@
   <!-- ABOUT SECTION -->
   <div id="About">
     <h1>Shaik Amaan</h1>
-    <h3>Trainee Software Engineer </h3><br><br>
+    <h3>Trainee Software Engineer </h3>
     <button id="buttton"><b>Explore My Work</b></button>
   </div>
 
