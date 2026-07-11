@@ -181,7 +181,7 @@
     /* Profile Image */
     #image {
       text-align: center;
-      padding: 2rem 0;
+      padding: 1rem 0;
     }
 
     #myimg {
@@ -194,14 +194,14 @@
     }
 
     /* About Section */
-    #Myself {
-      text-align: center;
-      padding: 4rem 5vw;
-      max-width: 800px;
-      margin: 0 auto;
-    }
+   #Myself {
+  text-align: center;
+  padding: 3rem 5vw;
+  max-width: 800px;
+  margin: 0 auto;
+}
     #Myself p{
-  margin-bottom:18px;
+  margin-bottom:12px;
 }
 
     #Myself h1 {
@@ -223,12 +223,11 @@
     }
 
     /* Skills Section */
- #skills {
-  padding: 6rem 5vw;
-  margin-top: 100px;
+#skills {
+  padding: 4rem 5vw;
+  margin-top: 20px;
   text-align: center;
 }
-
     #TECHINCAL {
       font-size: clamp(2rem, 6vw, 3rem);
       margin-bottom: 3rem;
@@ -274,7 +273,7 @@
     #contact {
       text-align: center;
       padding: 25px;
-      margin: 40px auto;
+      margin: 20px auto;
       width: 90%;
       max-width: 600px;
       background: rgba(255, 255, 255, 0.06);
@@ -339,7 +338,7 @@
 
   <!-- ABOUT ME SECTION -->
   <div id="Myself">
-    <h1>ABOUT ME</h1><br>
+  <h1>ABOUT ME</h1>
 <p class="lead">
   Hi, my name is Shaik Amaan. I completed my Bachelor of Computer Applications (BCA) from Karnataka Arts & Science College, Bidar.
   Currently, I am working as a <strong>Trainee Software Engineer</strong> at
@@ -362,6 +361,7 @@
 <p>
   I enjoy learning new technologies and building user-friendly web applications that solve real business problems.
 </p>
+</div>
 
   <!-- SKILLS -->
   <div id="skills">
