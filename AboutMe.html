@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shaik Amaan - Portfolio</title>
+  <title>My Portfolio</title>
   <style>
     * {
       margin: 0;
@@ -292,6 +292,34 @@
     .mail-btn:hover { 
       opacity: 0.9; 
     }
+    #certificates{
+  text-align:center;
+  padding:60px 20px;
+}
+
+.certificate-card{
+  max-width:500px;
+  margin:auto;
+  background:rgba(255,255,255,0.08);
+  padding:20px;
+  border-radius:15px;
+  border:1px solid #007bff;
+}
+
+.certificate-card h3{
+  color:#00c6ff;
+  margin-bottom:10px;
+}
+
+.certificate-card a{
+  display:inline-block;
+  margin-top:15px;
+  background:#007bff;
+  color:white;
+  padding:10px 20px;
+  border-radius:20px;
+  text-decoration:none;
+}
     @media(max-width:768px){
 
   #About{
@@ -330,12 +358,13 @@
       <span></span>
     </div>
 
-    <ul class="nav-links" id="nav-links">
-      <li><a href="#About">Home</a></li>
-      <li><a href="#Myself">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+  <ul class="nav-links" id="nav-links">
+  <li>#AboutHome</a></li>
+  <li>#Myself</li>
+  <li>#skills</li>
+  <li>#certificates</li>
+  <li>contact">Contact</a></li>
+</ul>
   </nav>
 
   <!-- ABOUT SECTION -->
@@ -354,27 +383,31 @@
   <div id="Myself">
     <h1>ABOUT ME</h1>
 <p class="lead">
-  Hi, my name is Shaik Amaan. I completed my Bachelor of Computer Applications (BCA) from Karnataka Arts & Science College, Bidar.
-  Currently, I am working as a <strong>Trainee Software Engineer</strong> at
-  <strong>Accord Software Pvt Ltd, Bangalore</strong>.
+  Hi, I'm Shaik Amaan, a Trainee Software Engineer at Accord Software Pvt Ltd, Bangalore.
 </p>
 
 <p>
-  I have hands-on experience in <strong>React JS, JavaScript, HTML, CSS,
-  Python, SQL, REST APIs and Git</strong>.
+  I completed my Bachelor of Computer Applications (BCA) from Karnataka Arts & Science College, Bidar.
 </p>
 
 <p>
-  I am currently working on the <strong>Nabhmitra Project</strong>, a real-world enterprise application where I contribute to React JS development, API integration, UI enhancement, bug fixing and support activities.
+  I successfully completed a <strong>Python Full Stack Development Course</strong> in Hyderabad from
+  <strong>September 2025 to March 2026</strong>, where I gained practical knowledge in HTML, CSS,
+  JavaScript, React JS, Python, SQL and Full Stack Web Development.
 </p>
 
 <p>
-  Apart from corporate projects, I have developed the <strong>Identity Card Issuance Portal</strong> and several web applications that strengthened my frontend and full-stack development skills.
+  I have hands-on experience in React JS, JavaScript, HTML, CSS, Python, SQL, REST APIs and Git.
 </p>
 
 <p>
-  I enjoy learning new technologies and building user-friendly web applications that solve real business problems.
+  Currently, I am working at Accord Software Pvt Ltd and continuously improving my skills through real-world software development experience.
 </p>
+
+<p>
+  My <strong>Final Year Project</strong> was the <strong>Identity Card Issuance Portal</strong>, which helped me strengthen my development, database management and problem-solving skills.
+</p>
+`
     </div>
 
   <!-- SKILLS -->
@@ -393,11 +426,24 @@
 </div>
 
     <div>
-      <p class="PRJ">1+<br>Real World Project</p>
+    <p class="PRJ">1+<br>Final Year Project</p>
 <p class="PRJ">5+<br>Web & SQL Projects</p>
 <p class="PRJ">1+<br>Corporate Experience</p>
     </div>
   </div>
+  <!-- CERTIFICATES -->
+<div id="certificates">
+  <h1>CERTIFICATES</h1>
+
+  <div class="certificate-card">
+    <h3>Python Full Stack Development</h3>
+    <p>September 2025 - March 2026</p>
+
+    certificate.jpg
+      View Certificate
+    </a>
+  </div>
+</div>
 
   <!-- CONTACT -->
   <div id="contact">
