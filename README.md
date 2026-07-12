@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -346,9 +347,7 @@
   <!-- 🌟 STIRRING HAMBURGER NAVBAR -->
   <nav class="navbar">
     <div class="logo">
-      <img src="LOGO.jpg" alt="Shaik Amaan Logo" id="logo">
-      <span>My Portfolio</span>
-      
+      <img src="LOGO.jpg" alt="Shaik Amaan Logo" id="logo">      
     </div>
 
     <!-- 3 Lines Stirring Menu -->
@@ -359,11 +358,11 @@
     </div>
 
   <ul class="nav-links" id="nav-links">
-  <li>AboutMe</a></li>
-  <li>Myself</li>
-  <li>skills</li>
-  <li>certificates</li>
-  <li>Contact</a></li>
+  <li>#About</li>
+  <li>#Myself</li>
+  <li>#skills</li>
+  <li>#certificatesCertificate</a></li>
+  <li>#contactContact</a></li>
 </ul>
   </nav>
 
@@ -437,11 +436,7 @@
   <div class="certificate-card">
     <h3>Python Full Stack Development</h3>
     <p>September 2025 - March 2026</p>
-
-    ./My edit Course certificate.pdfblank"
-       class="mail-btn">
-       View Certificate
-    </a>
+  <img src="./file_0000000059a071f5a1b0bd1a393e681b.png" alt="Shaik Amaan Profile" id="myimg">
   </div>
 </div>
 
@@ -467,3 +462,5 @@
       navLinks.classList.toggle("show");
     };
   </script>
+</body>
+</html>
