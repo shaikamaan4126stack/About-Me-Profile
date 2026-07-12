@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -348,6 +347,7 @@
   <nav class="navbar">
     <div class="logo">
       <img src="LOGO.jpg" alt="Shaik Amaan Logo" id="logo">
+      <span>My Portfolio</span>
       
     </div>
 
@@ -359,11 +359,11 @@
     </div>
 
   <ul class="nav-links" id="nav-links">
-  <li>#AboutHome</a></li>
-  <li>#Myself</li>
-  <li>#skills</li>
-  <li>#certificates</li>
-  <li>contact">Contact</a></li>
+  <li>AboutMe</a></li>
+  <li>Myself</li>
+  <li>skills</li>
+  <li>certificates</li>
+  <li>Contact</a></li>
 </ul>
   </nav>
 
@@ -407,7 +407,6 @@
 <p>
   My <strong>Final Year Project</strong> was the <strong>Identity Card Issuance Portal</strong>, which helped me strengthen my development, database management and problem-solving skills.
 </p>
-`
     </div>
 
   <!-- SKILLS -->
@@ -433,14 +432,15 @@
   </div>
   <!-- CERTIFICATES -->
 <div id="certificates">
-  <h1>CERTIFICATES</h1>
+  <h1>CERTIFICATE</h1>
 
   <div class="certificate-card">
     <h3>Python Full Stack Development</h3>
     <p>September 2025 - March 2026</p>
 
-    certificate.jpg
-      View Certificate
+    ./My edit Course certificate.pdfblank"
+       class="mail-btn">
+       View Certificate
     </a>
   </div>
 </div>
@@ -467,5 +467,3 @@
       navLinks.classList.toggle("show");
     };
   </script>
-</body>
-</html>
