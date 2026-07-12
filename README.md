@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -421,5 +420,3 @@
       navLinks.classList.toggle("show");
     };
   </script>
-</body>
-</html>
